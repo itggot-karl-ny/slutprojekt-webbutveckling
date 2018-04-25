@@ -63,6 +63,7 @@ nav{
     align-content: center;
     justify-content: center;
     background-color: turquoise;
+    transition: 1.5s;
 }
 
 .menutext{
@@ -72,6 +73,7 @@ nav{
 
 .menutext:hover{
     background-color: turquoise;
+    transition: 1.5s;
 }
 
 .bar{
@@ -96,7 +98,12 @@ li{
 }
 
 .show{
-    display: grid;
+    display: block;
+}
+
+.fade{
+    background-color:rgba(247, 247, 247, 0.637);
+    transition: 1.5s;
 }
 
 .hem{
@@ -111,6 +118,7 @@ li{
     grid-column: 2 / 5;
     text-align: center;
     background-color: turquoise;   
+    transition: 1.5s;
 }
 
 .videos{
@@ -119,12 +127,14 @@ li{
     background-color: rgb(43, 42, 42);
     display: grid;
     align-content: center; 
+    
 }
 
 .videos:hover{
     grid-column: 5 / 8;
     text-align: center;
     background-color: turquoise;
+    transition: 1.5s;
 }
 
 .info{
@@ -139,6 +149,7 @@ li{
     grid-column: 8 / 11;
     text-align: center;
     background-color: turquoise;
+    transition: 1.5s;
 }
 
 a{
@@ -171,3 +182,4 @@ footer{
     text-align: center;
     color: rgb(43, 42, 42);
 }
+
