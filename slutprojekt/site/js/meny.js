@@ -4,4 +4,10 @@ function toggleMenu(){
 
     element = document.querySelector("main");
     element.classList.toggle("fade")
+
+    element = document.querySelector(".bar");
+    element.classList.toggle("animation")
+
+    
 }
+
