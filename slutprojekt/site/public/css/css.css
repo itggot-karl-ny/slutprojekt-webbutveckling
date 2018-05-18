@@ -74,7 +74,7 @@ nav{
 
 .menutext:hover{
     background-color: turquoise;
-    transition: 1s ;
+    transition: 1s;
 }
 
 .bar{
@@ -347,6 +347,8 @@ footer{
         height: 100vh;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(17, 1fr); 
+        padding: 0%;
+        margin: 0%;
     }
 
     header{
@@ -399,15 +401,21 @@ footer{
         display: none;
 
     }
-    
+
+    .menu2 {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+        grid-column: 1 / 2;
+    }
     
     .menu:hover{
-        grid-column: 1 / 2;
+        /* grid-column: 1 / 2;
         align-content: center;
         justify-content: center;
         background-color: turquoise;
-        transition: 1s;
-        display: none;
+        transition: 1s; */
+        /* display: none; */
 
     }
     
@@ -417,14 +425,15 @@ footer{
 
     }
     
-    .menutext:hover{
+    /* .menutext:hover{
         background-color: turquoise;
         transition: 1s ;
         display: none;
 
-    }
+    } */
     
-    .bar{
+    
+    /* .bar{
         position: absolute;  
         z-index: +1;
         transition: 1s;
@@ -434,7 +443,7 @@ footer{
         opacity: 0;
         display: none;
 
-    }
+    } */
     
     li{
         list-style-type: none;
@@ -471,16 +480,16 @@ footer{
 
     }
     
-    .hem:hover{
+    /* .hem:hover{
         grid-column: 2 / 5;
         text-align: center;
         background-color: turquoise;   
         transition: 1s;
         display: none;
 
-    }
+    } */
     
-    .videos{
+    /* .videos{
         grid-column: 5 / 8;
         text-align: center;
         background-color: rgb(43, 42, 42);
@@ -489,18 +498,18 @@ footer{
         display: none;
 
         
-    }
+    } */
     
-    .videos:hover{
+    /* .videos:hover{
         grid-column: 5 / 8;
         text-align: center;
         background-color: turquoise;
         transition: 1s;
         display: none;
 
-    }
+    } */
     
-    .info{
+    /* .info{
         grid-column: 8 / 11;
         text-align: center;
         background-color: rgb(43, 42, 42);
@@ -508,16 +517,16 @@ footer{
         align-content: center;
         display: none;
  
-    }
+    } */
     
-    .info:hover{
+    /* .info:hover{
         grid-column: 8 / 11;
         text-align: center;
         background-color: turquoise;
         transition: 1s;
         display: none;
 
-    }
+    } */
     
     a{
         text-decoration: none;
@@ -536,8 +545,8 @@ footer{
         grid-column-gap: 4px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 100%; 
-        /* display: none;
-         */
+        /* display: none; */
+        
     }
     
     footer{
@@ -561,8 +570,6 @@ footer{
         grid-template-rows: repeat(1, 1fr);
         background-color: grey;
         color: white;
-        /* display: none; */
-
     }
     
     .index_rubrik{
@@ -578,17 +585,86 @@ footer{
     }
     
     .indexbild{
+        grid-column: 2 / 6;
+        grid-row: 8 / 16; 
         display: none;
     }
 
-    /* .indexbild2{
+    .indexbild2{
         grid-column: 2 / 6;
         grid-row: 8 / 14;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        display: grid;
         background-color: grey;
         justify-content: center;
-    } */
+    }
+
+    .vidtitel1{
+        grid-column: 2 / 6;
+        grid-row: 1 / 2;
+        font-size: 50%;
+        color: white;
+        text-align: center;
+    }
+    
+    .film1{
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+        display: none;
+    }
+    
+    .vidtitel2{
+        grid-column: 2 / 6;
+        grid-row: 4 / 5;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        color: white;
+        text-align: center;
+        display: none;
+    }
+    
+    .film2{
+        grid-column: 2 / 4;
+        grid-row: 5 / 7;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: none;
+    }
+    
+    .vidtitel3{
+        grid-column: 2 / 6;
+        grid-row: 7 / 8;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        color: white;
+        text-align: center;
+        display: none;
+    }
+    
+    .film3{
+        grid-column: 2 / 4;
+        grid-row: 8 / 10;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: none;
+    }
+    
+    .vidtitel4{
+        grid-column: 2 / 6;
+        grid-row: 5 / 6;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        color: white;
+        text-align: center;
+        display: none;
+    }
+    
+    .film4{
+        grid-column: 2 / 6;
+        grid-row: 6 / 9;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: none;
+    }
 
 
 
