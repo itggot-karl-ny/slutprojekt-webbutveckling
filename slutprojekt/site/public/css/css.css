@@ -363,6 +363,8 @@ footer{
 
 
 
+
+
 @media only screen and (max-device-width: 670px){
     .container{
         width: 100vw;
@@ -470,8 +472,6 @@ footer{
     li{
         list-style-type: none;
         font-size: 80%;
-        display: none;
-
     }
     
     .menutitle{
@@ -748,20 +748,9 @@ footer{
         background-color: grey;
     }
 
-
-    
-
-    
-
-    
-
-
-
-
-
-
-
-
+    .adress{
+        text-align: center;
+    }
 
 }
 
