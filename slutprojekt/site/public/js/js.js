@@ -10,11 +10,9 @@ function toggleMenu(){
 
 function toggleMenumobile(){
     var element = document.querySelector(".bar2");
-    element.classList.toggle("show");
-
-
-    element = document.querySelector(".bar2");
-    element.classList.toggle("animation");
+    
+    element.classList.toggle("animation2");
+    element.classList.toggle("visible");
 
 }
 
