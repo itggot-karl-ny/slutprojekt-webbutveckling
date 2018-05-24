@@ -755,13 +755,14 @@ footer{
         color: aqua;
     }
     
-}
 
-.visible {
-    visibility: visible;
-}
 
-.animation2 {
-    transform: translateX(0%);
-}
+    .visible {
+        visibility: visible;
+    }
 
+    .animation2 {
+        transform: translateX(0%);
+    }
+
+}
