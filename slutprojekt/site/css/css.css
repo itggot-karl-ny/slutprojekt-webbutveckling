@@ -369,17 +369,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-device-width: 670px){
     .container{
         width: 100vw;
@@ -431,6 +420,7 @@ footer{
         display: flex;
     }
     
+    
     .menu{
         grid-column: 1 / 2;
         grid-template-columns: repeat(1, 1fr);
@@ -448,6 +438,7 @@ footer{
         height: 10%;
         grid-column: 1 / 2;
         display: block;
+        color: white;
     }
     
     
@@ -753,7 +744,17 @@ footer{
         display: inline-block;
         padding-top: 20%;
         font-size: 50px;
+        color: white;
     }
+
+    .material-icons:hover {
+        color: aqua;
+    }
+
+    i{
+        color: aqua;
+    }
+    
 }
 
 .visible {
@@ -763,3 +764,4 @@ footer{
 .animation2 {
     transform: translateX(0%);
 }
+
