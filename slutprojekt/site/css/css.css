@@ -110,7 +110,7 @@ li{
 .hem{
     grid-column: 2 / 5;
     text-align: center;
-    background-color: rgb(43, 42, 42);  
+    background-color: rgb(43, 42, 42);
     display: grid;
     align-content: center; 
 }
@@ -207,7 +207,15 @@ footer{
     grid-row: 2 / 8;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
+    display: grid;
     background-color: grey;
+}
+
+.mobildiv{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    /* background-color: grey; */
+    background-image: url(../img/indexdesktop.png);
 }
 
 .vidtitel1{
@@ -327,6 +335,7 @@ footer{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     background-color: grey;
+    background-image: url(../img/desktopspritesheet.png);
 }
 
 .adress{
@@ -337,23 +346,16 @@ footer{
     display: none;
 }
 
-.indexbild2{
-    display: none;
+.bg-it_gymnasiet {
+    width: 127px; height: 127px;
+    background: url('css_sprites.png') -177px -0;
 }
 
 .bg-origovägen {
     width: 177px; height: 127px;
-    background: url('css_sprites.png') -4px -4px;
+    background: url('css_sprites.png') -0 -0;
 }
 
-.bg-it_gymnasiet {
-    width: 127px; height: 127px;
-    background: url('css_sprites.png') -189px -4px;
-}
-
-.infobild2{
-    display: none;
-}
 
 .bar2{
     display: none;
@@ -596,17 +598,24 @@ footer{
     
     .indexbild{
         grid-column: 2 / 6;
-        grid-row: 8 / 16; 
-        display: none;
-    }
-
-    .indexbild2{
-        grid-column: 2 / 6;
         grid-row: 8 / 14;
         display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
         background-color: grey;
         justify-content: center;
+        /* justify-content: center; */
     }
+
+
+    .mobildiv{
+        grid-column: 2 / 4;
+        grid-row: 1 / 7;
+        display: grid;
+        background-image: url(../img/indexmobil.png);
+        justify-content: center;
+    }
+
 
     .art2{
         grid-column: 2 / 6;
@@ -714,7 +723,12 @@ footer{
     }
     
     .infobild1{
-        display: none;
+        grid-column: 2 / 6;
+        grid-row: 7 / 10;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        background-image: url(../img/mobilespritesheet.png);
     }
 
     .bg-it_gymnasiet2 {
@@ -725,15 +739,6 @@ footer{
     .bg-origovägen2 {
         width: 134px; height: 114px;
         background: url('mobilespritesheet.png') -0 -0;
-    }
-
-    .infobild2{
-        grid-column: 2 / 6;
-        grid-row: 7 / 10;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        background-color: grey;
     }
 
     .adress{
