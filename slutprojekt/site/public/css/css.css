@@ -214,7 +214,6 @@ footer{
 .mobildiv{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    /* background-color: grey; */
     background-image: url(../img/indexdesktop.png);
 }
 
@@ -557,7 +556,6 @@ footer{
         grid-column-gap: 4px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 100%; 
-        /* display: none; */
         
     }
     
@@ -604,7 +602,6 @@ footer{
         grid-template-rows: repeat(6, 1fr);
         background-color: grey;
         justify-content: center;
-        /* justify-content: center; */
     }
 
 
